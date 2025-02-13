@@ -27,8 +27,7 @@ export default function Page() {
       "Final chance!!",
       "1000000000 times noo",
       "rude :( STILL NO?",
-      "You can't escape",
-      "Maybe this time it'll work??"
+      "You can't escape"
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -54,7 +53,7 @@ export default function Page() {
             (We really innovating with the letters huh!)
           </p>
           <p className="mb-3 text-xl font-medium text-pink-600 animate-pulse font-mono">
-            Sooo, I have something important to ask you...
+            Sooo, I have something to ask you...
           </p>
           <button
             className="rounded bg-gradient-to-r from-pink-500 to-purple-500 px-6 py-3 font-bold text-white hover:from-pink-600 hover:to-purple-600 transform hover:scale-110 transition-all duration-200 shadow-lg font-mono"
@@ -72,7 +71,7 @@ export default function Page() {
               className="h-[300px] rounded-lg shadow-2xl mb-8 animate-bounce"
             />
             <div className="my-4 text-4xl font-bold text-white drop-shadow-lg font-mono text-center">
-              {"YAY! I knew you'd say yes lil mochi ball ".split('').map((char, i) => (
+              {"YAY! Woooooow, I just knew you'd say yes lil mochi ball ".split('').map((char, i) => (
                 <span 
                   key={i}
                   className="inline-block animate-wave font-mono"
